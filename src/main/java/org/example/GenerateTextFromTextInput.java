@@ -12,7 +12,7 @@ public class GenerateTextFromTextInput {
         System.out.println("What do you want to ask");
         String question = scanner.nextLine();
 
-        System.out.println("Waiting for response");
+        System.out.println("Thinking");
         GenerateContentResponse response =
                 client.models.generateContent(
                         "gemini-2.5-flash",
